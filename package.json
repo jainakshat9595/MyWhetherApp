@@ -2,7 +2,7 @@
   "name": "WhetherApp",
   "main": "server.js",
   "engines": {
-    "node": "6.9.4"
+    "node": "6.10.3"
   },
   "dependencies": {
     "@google/maps": "^0.3.1",
