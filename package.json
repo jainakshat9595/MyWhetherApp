@@ -15,7 +15,7 @@
     "bower": "0.6.5"
   },
   "scripts": {
-    
-    "postinstall": "bower install"
+    "start": "node server.js",
+    "postinstall": "bower cache clean && bower install"
 }
 }
