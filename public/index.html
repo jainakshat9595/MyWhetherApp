@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<base href="/">
+
+	<title>Whether Information</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css"> <!-- custom styles -->
+
+	<!-- JS -->
+	<script src="libs/angular/angular.min.js"></script>
+	<script src="libs/angular-route/angular-route.min.js"></script>
+	<script src="libs/ngmap/build/scripts/ng-map.min.js"></script>
+	
+	<!-- ANGULAR CUSTOM -->
+	<script src="js/controllers/MainCtrl.js"></script>
+	<script src="js/services/MainService.js"></script>
+	<script src="js/appRoutes.js"></script>
+	<script src="js/ngAutocomplete.js"></script>
+	<script src="js/app.js"></script>
+
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?libraries=places&key=AIzaSyBGWW0H6JKZ7SWybgkg5cLQh_-IrThl5EQ"></script>
+</head>
+<body ng-app="sampleApp" ng-controller="MainController">
+<div class="container">
+	
+	<!-- ANGULAR DYNAMIC CONTENT -->
+	<div ng-view></div>
+
+</div>
+</body>
+</html>
